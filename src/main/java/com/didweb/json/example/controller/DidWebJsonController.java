@@ -14,6 +14,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @RestController
 public class DidWebJsonController {
+
+	@RequestMapping("/version")
+    	public String version() {
+       	return "Success";
+    }
 	
 	@GetMapping(value = "/well-known/{jsonfile}", produces = MediaType.APPLICATION_JSON_VALUE)
     public @ResponseBody
