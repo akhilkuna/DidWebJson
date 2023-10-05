@@ -18,7 +18,7 @@ public class DidWebJsonController {
 	@GetMapping(value = "/well-known/{jsonfile}", produces = MediaType.APPLICATION_JSON_VALUE)
     public @ResponseBody
     Object getBeers(@PathVariable("jsonfile") String jsonfile) {
-        Resource resource = new ClassPathResource(jsonfile);
+        Resource resource = new ClassPathResource("classpath:src/main/resources/" + jsonfile);
         try {
             ObjectMapper mapper = new ObjectMapper();
             return mapper.readValue(resource.getInputStream(), Object.class);
