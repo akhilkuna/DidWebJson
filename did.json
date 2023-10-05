@@ -9,23 +9,23 @@
       }
     }
   ],
-  "id": "did:web:a59d-45-251-232-79.ngrok-free.app",
+  "id": "did:web:akhilkuna.github.io:DidWebJson",
   "verificationMethod": [
     {
-      "id": "did:web:a59d-45-251-232-79.ngrok-free.app#z6Mkpdzex9ci2amM4EvoKW2kjiRGzySSoK5kZfKc6oBmH9w5",
+      "id": "did:web:akhilkuna.github.io:DidWebJson#z6MkvE6hEvaALF1mg9y3R1TeND4StvrDGzePN7hhS5kGEWLB",
       "type": "Ed25519VerificationKey2018",
-      "controller": "did:web:a59d-45-251-232-79.ngrok-free.app",
+      "controller": "did:web:akhilkuna.github.io:DidWebJson",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "l1TbM1_g7kJj2pRgH4d-6DYbS83GlvPy94Z9IOEEweA"
+        "x": "6lveA5_8UrjAsu2dxwzFKoXUjmmYQMxiJU2_qTyJMsQ"
       }
     }
   ],
   "authentication": [
-    "did:web:a59d-45-251-232-79.ngrok-free.app#z6Mkpdzex9ci2amM4EvoKW2kjiRGzySSoK5kZfKc6oBmH9w5"
+    "did:web:akhilkuna.github.io:DidWebJson#z6MkvE6hEvaALF1mg9y3R1TeND4StvrDGzePN7hhS5kGEWLB"
   ],
   "assertionMethod": [
-    "did:web:a59d-45-251-232-79.ngrok-free.app#z6Mkpdzex9ci2amM4EvoKW2kjiRGzySSoK5kZfKc6oBmH9w5"
+    "did:web:akhilkuna.github.io:DidWebJson#z6MkvE6hEvaALF1mg9y3R1TeND4StvrDGzePN7hhS5kGEWLB"
   ]
 }
